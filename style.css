@@ -1,0 +1,125 @@
+*{
+    box-sizing: border-box;
+}
+#home,#services,#contact,#about{
+    padding-left: 5%;
+}
+#home{
+    background-color: #070404;
+    height:100%
+}
+.orange-round-button{
+    background-color: #eaf20e;
+    border-radius: 50px;
+    color: black;
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 700;
+}
+.orange-round-button:hover{
+    box-shadow: 2px 2px 2px #888888;
+    color: black;
+}
+#home h1,#home h2{
+    color: #d0dad8;
+    padding:20px;
+}
+#home h1{
+    font-family: 'Righteous', cursive;
+    font-size: 5vw;
+}
+#home h2{
+    font-family: 'Baloo Chettan 2', cursive;
+    font-size: 4vw;
+}
+.img-box{
+    position: relative;
+}
+.circle{
+    border-radius: 50%;
+    background-color: #846317;
+    box-shadow:  5px 8px 5px #888888;
+    width: 300px;
+    height: 300px;
+    position: absolute;
+
+}
+
+#maveli{
+    width: 500px;
+    height: 600px;
+    position: absolute;
+   
+
+}
+.dum{
+    width: 300px;
+    height: 300px;
+    position: relative;
+}
+.overlayLogo {
+   position:absolute;
+   z-index: 99999;
+   top: 0;
+   left:0;
+}
+#about {
+    background-image: radial-gradient(#FAD88B, #F2AF0E);
+    background-size: cover;
+    height: 100%;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    align-items: center;
+
+}
+.about-h3{
+color: #0d6a6b;
+font-weight: bold;
+padding-bottom: 10px;
+}
+.about-p{
+    padding-top: 10px ;
+}
+
+
+
+@media screen and (max-width: 600px){
+    #maveli{
+    width: 200px;
+    height: 300px;
+    position:relative;
+
+}
+.circle{
+    border-radius: 50%;
+    width: 0px;;
+    background-color: #F2AF0E;
+    box-shadow:  5px 8px 5px #888888;
+    position:absolute;
+
+}
+}
+
+
+
+#contact{
+    background-image: radial-gradient(#0c0d0c, #216006);
+    height: 100%;
+    font-weight: bold;
+}
+.gold-text{
+    color: #F2AF0E;
+    font-weight: 300;
+    font-weight: bold;
+}
+
+hr{
+    background-color:#F2AF0E;
+    display: block;
+    font-weight: bold;
+}
+.bg-gold{
+    background-color:#F2AF0E;
+    border-radius: 60px;
+    font-weight: bold;
+}
+
