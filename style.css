@@ -2,7 +2,7 @@
     box-sizing: border-box;
 }
 #home,#services,#contact,#about{
-    padding-left: 5%;
+    padding-left: 5%; 
 }
 #home{
     background-color: #070404;
